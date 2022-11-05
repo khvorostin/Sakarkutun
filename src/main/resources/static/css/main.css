@@ -87,6 +87,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+   height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.sk-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sk-header,
+.sk-footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+.sk-main {
+  flex-grow: 1;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
